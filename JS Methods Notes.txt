@@ -1,0 +1,9 @@
+setInterval Method (for - animation) 
+
+setInterval (function, time) - setInterval(fame, 5)
+ 
+function frame {
+
+// function
+
+}
