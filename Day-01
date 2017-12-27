@@ -7,10 +7,7 @@
 <body>
 <center>        <h1 id="text" style="font-family: cursive; color: deepskyblue"> #100DaysofCode </h1> </center>
 <h4>Day 01 - 27 December 2017 </h4>
-
 <p id="demo"> </p>
-
-
 
 <script type="text/javascript">
 
@@ -23,10 +20,42 @@
 
 
 
+/*
+// Free Code Camp Challenge : Confirm the Ending
+
+    function confirmEnding(str, target) {
+
+        var checkpoint = str.length - target.length;
 
 
 
-//document.getElementById("demo").innerHTML = ;
+    return    Boolean (str.substring(checkpoint) == target)
+
+
+    }
+
+    console.log(    confirmEnding("Bastian", "n"));
+
+
+// Free Code Camp Challenge : Retrun Largest Number Array
+
+    function largestOfFour(arr) {
+        var newArray = [0,0,0,0]
+
+for (var i = 0; i < arr.length; i++) {
+  for (var y = 0; y < arr[i].length; y++ ) {
+
+      if (arr[i][y] > newArray[i]) {
+
+          newArray[i] = arr[i][y]
+      }
+  }
+}
+    return newArray;
+}
+console.log(
+largestOfFour ([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]])
+); */
 
 
     // ***** Do not Delet after this lie ****
