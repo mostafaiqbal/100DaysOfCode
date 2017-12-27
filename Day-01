@@ -16,22 +16,17 @@
 
 
 
-function slasher(arr, howMany) {
-
-    if (arr.length <= howMany) {
-
-        return []
-    }
-
-    return arr;
-}
-
-function newFunction () {}
 
 
-console.log()
 
-//document.getElementById("demo").innerHTML = factorialize(3);
+
+
+
+
+
+
+
+//document.getElementById("demo").innerHTML = ;
 
 
     // ***** Do not Delet after this lie ****
