@@ -1,9 +1,36 @@
 
+// Day 01 - 27/12/2017
+
+//Free Code Camp Challenge: Chunky Monkey
+
+function chunkArrayInGroups(arr, size) {
+
+}
+console.log(
+    chunkArrayInGroups ([0, 1, 2, 3, 4, 5, 6], 3)
+);
 
 
 
 
-/*
+//Free Code Camp Challenge: Truncate a string
+function truncateString(str, num) {
+if (str.length > num) {
+    if (num <=3) {
+        return str.slice(0, num) + "...";
+    } else {
+            return str.slice(0, num - 3) + "...";
+        }
+    } else {
+        return str;
+    }
+}
+
+console.log(
+    truncateString ("A-", 1)
+);
+
+
 //Free Code Camp Challenge: Repeat a string repeat a string
 function repeatStringNumTimes(str, num) {
 
@@ -16,7 +43,8 @@ function repeatStringNumTimes(str, num) {
     }
 }
 console.log(
-repeatStringNumTimes("abc", -2) );
+repeatStringNumTimes("abc", -2)
+ );
 
 
 // Free Code Camp Challenge : Confirm the Ending
@@ -47,4 +75,4 @@ for (var i = 0; i < arr.length; i++) {
 }
 console.log(
 largestOfFour ([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]])
-); */
+);
