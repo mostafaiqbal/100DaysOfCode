@@ -1,6 +1,5 @@
 // Day 02 - 30/12/2017
 
-THIS IS TEXT 
 
 
 
