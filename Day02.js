@@ -1,7 +1,7 @@
 // Day 02 - 30/12/2017
 
 
-// Free Code Camp Challenge: Caesars Cipher
+// Free Code Camp Challenge: Caesars Cipher - Basic Lgorithm Script 
 
 function rot13(str) {
     var result = [];
@@ -24,7 +24,6 @@ function rot13(str) {
 console.log(
     rot13("SERR PBQR PNZC")
 );
-
 
 
 
