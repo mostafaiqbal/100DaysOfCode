@@ -1,21 +1,24 @@
+// Day 02 - 30/12/2017
 
-// Day 02 - 28/12/2017
+
+
+
+
 
 /**
 //Free Code Camp Challenge: Mutations
 function mutation(arr) {
+    var string1 = arr[0].toLowerCase();
+    var string2 = arr[1].toLowerCase();
 
-    var string1 = arr[0];
-        string1 = string1.toLowerCase();
-    var string2 = arr[1];
-        string2 = string2.toLowerCase();
-    if (arr.indexOf(arr[0]) === arr.indexOf(arr[2])) {
-        return true ;
-    } else {
-        return false;
+    for ( var i = 0; i < string2.length; i++) {
+         if (string1.indexOf(string2[i]) < 0) {
+             return false;
+         }
     }
+    return true;
 }
-console.log (mutation (["zyxwvutsrqponmlkjihgfedcba", "qrstu"]) );
+console.log (
+    mutation( ["zyxwvutsrqponmlkjihgfedcba", "qrstu"]) );
 
-
- */
+*/
