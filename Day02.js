@@ -1,7 +1,7 @@
 // Day 02 - 30/12/2017
 
 
-// Free Code Camp Challenge: Caesars Cipher - Basic Lgorithm Script 
+// Free Code Camp Challenge: Caesars Cipher - Basic Lgorithm Script
 
 function rot13(str) {
     var result = [];
@@ -77,5 +77,3 @@ function mutation(arr) {
 }
 console.log (
     mutation( ["zyxwvutsrqponmlkjihgfedcba", "qrstu"]) );
-
-*/
