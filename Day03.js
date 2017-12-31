@@ -3,7 +3,7 @@
 
 
 
-/*
+
 // Free Code Camp Challenge: Object Oriented and Functional Programming (REVISE)
 
 function factorialize(num) {
