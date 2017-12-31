@@ -1,5 +1,9 @@
 // Day 03 - 31/12/2017
+// Free Code Camp Challenge: Object Oriented and Functional Programming (REVISE)
 
+
+
+/*
 // Free Code Camp Challenge: Object Oriented and Functional Programming (REVISE)
 
 function factorialize(num) {
@@ -14,7 +18,6 @@ function factorialize(num) {
 console.log(
     factorialize(5)
 );
-
 
 
 
