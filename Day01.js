@@ -1,7 +1,7 @@
 
 // Day 01 - 27/12/2017
 
-//Free Code Camp Challenge: Chunky Monkey
+//Free Code Camp Challenge: Chunky Monkey.
 
 function chunkArrayInGroups(arr, size) {
 
