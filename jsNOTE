@@ -1,4 +1,13 @@
 ARRAY METHODS
 i) array.map(): The map method will iterate through every element of the array,
-ii) array.reduce () : The array method reduce is used to iterate through an array
+
+ii) array.reduce() : The array method reduce is used to iterate through an array
     and condense it into one value.
+
+iii) Array.filter() : The filter method is used to iterate through an array and filter
+    out elements where a given condition is not true.
+
+iv) Array.sort() : You can use the method sort to easily sort the values in an array alphabetically
+    or numerically.
+
+v) Array.reverse() : You can use the reverse method to reverse the elements of an array.
