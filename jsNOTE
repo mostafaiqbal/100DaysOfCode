@@ -1,2 +1,4 @@
 ARRAY METHODS
-i) array.map(): The map method will iterate through every element of the array, 
+i) array.map(): The map method will iterate through every element of the array,
+ii) array.reduce () : The array method reduce is used to iterate through an array
+    and condense it into one value.
