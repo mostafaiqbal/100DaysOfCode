@@ -1,29 +1,45 @@
 // Day 07 - 05/01/2018
 // FreeCodeCamp Challenge: sObject Oriented and Functional Programming  (REVISE)
 
-//Array .reduce Method
-
-var array = [4,5,6,7,8];
-var singleVal = 0;
-
-
-singleVal = array;
 
 /*
+// Array.Sort() and Array.reverse()
+var array = [1, 12, 21, 2];
+var newArray = array.sort(function(a, b) {
+    return a - b;
+});
+console.log(newArray);
+
+newArray.reverse();
+console.log(newArray);
+
+//Array.filter ()
+var oldArray = [1,2,3,4,5,6,7,8,9,10];
+var newArray = oldArray.filter(function(val) {
+    return val < 6;
+}) ;
+
+console.log(newArray);
+
+//Array .reduce Method
+var array = [4,5,6,7,8];
+var singleVal = 0;
+singleVal = array.reduce(function(a,b){
+    return a + b;
+});
+console.log(singleVal);
+
+
 // Reformating object using map
 var kvArray = [{key: 1, value: 10},
                {key: 2, value: 20},
                {key: 3, value: 30}];
 
 var reformatedObject = kvArray.map (function(val) {
-
     var newVal = {};
     newVal[val.key] = val.value;
-
     return newVal;
-
 })
-
 console.log(
     reformatedObject
 );
