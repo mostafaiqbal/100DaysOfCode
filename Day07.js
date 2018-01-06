@@ -2,7 +2,7 @@
 // FreeCodeCamp Challenge: sObject Oriented and Functional Programming  (REVISE)
 
 
-/*
+
 // Array.Sort() and Array.reverse()
 var array = [1, 12, 21, 2];
 var newArray = array.sort(function(a, b) {
@@ -89,4 +89,3 @@ var carObject = {
 }
 
 console.log(carObject);
-*/
