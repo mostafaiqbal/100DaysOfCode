@@ -11,3 +11,9 @@ iv) Array.sort() : You can use the method sort to easily sort the values in an a
     or numerically.
 
 v) Array.reverse() : You can use the reverse method to reverse the elements of an array.
+
+vi) Array.Concat() : concat can be used to merge the contents of two arrays into one.
+
+vii) String.split () : Split a sting and convert it into an array .
+
+vii) array.join() : To join the arrays and convert it to string.
