@@ -23,8 +23,6 @@ console.log(
 
 
 
-
-/*
 //findLongestWord
 function findLongestWord(str) {
     var longestWord = 0;
@@ -52,9 +50,3 @@ return newArray.join(" ");
 console.log(
     titleCase("I'm a little tea pot")
 );
-
-
-
-
-
- */
