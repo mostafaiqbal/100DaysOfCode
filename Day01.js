@@ -1,9 +1,24 @@
 
-// Day 01 - 12/04/2018
+// Day 01 - 12/04 - 17/04
 
-document.getElementById("btn").onclick = function() {
-    document.getElementById("demo").innerHTML = "NOW YOU CAN SEE ME ";
-}
-document.getElementById("btn").ondblclick = function() {
-    document.getElementById("demo").innerHTML = "Love me";
-}
+//FreeCodeCamp Object Oriented and Functional Programming
+
+
+// #01 Declare JavaScript Objects as Variables 
+
+var car = {
+    "wheels":4,
+    "engines":1,
+    "seats":5
+  };
+  
+  var motorBike = 
+
+  
+  };
+
+
+/*
+
+
+*/
