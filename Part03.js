@@ -22,7 +22,8 @@ function factorialize(num) {
    return result;
   }
   console.log(
-    factorialize(6)
+    factorialize(6);
   )
+
 
   
