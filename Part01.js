@@ -31,7 +31,7 @@
 
     console.log(MotorBike);
 
-   // #03 Make Instances of Objects with a Constructor Function
+   // #03 Make Instances of Objects with a Constructor Function with New key word
 
     var Car = function() {
         this.wheels = 4;
@@ -53,10 +53,28 @@
         this.seats = seats;
         this.engines = engines;
     };
-    
-    
-    var myCar= new Car(4, 5, 2);
+
+     var myCar= new Car(4, 5, 2);
     
     console.log(myCar)
 
+
+
+// #05 Make Object Properties Private
+
+  var Bike = function() {
+    var gear = 0;
+
+    this.getGear = function () {
+      return gear;
+    }
+
+    this.setGear = function (change) {
+        gear = change;
+    }
+  
+  };
+  
+  var myBike = new Bike();
 */
+
