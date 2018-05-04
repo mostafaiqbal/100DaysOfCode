@@ -53,4 +53,19 @@ var concatMe = [4,5,6];
 newArray = oldArray.concat(concatMe);
 console.log(newArray);
 
+
+// # Split Strings with split 
+
+var string = "Split me into an array";
+var array = [];
+array = string.split(" ")
+console.log(array);
+
+
+//# Join Strings with join
+var joinMe = ["Split","me","into","an","array"];
+var joinedString = '';
+joinedString = joinMe.join(" ");
+console.log(joinedString);
+
 */
