@@ -53,6 +53,7 @@ var concatMe = [4,5,6];
 newArray = oldArray.concat(concatMe);
 console.log(newArray);
 
+// ****** STRING ******* 
 
 // # Split Strings with split 
 
@@ -68,4 +69,30 @@ var joinedString = '';
 joinedString = joinMe.join(" ");
 console.log(joinedString);
 
+
+
+//# CharAt() Method -- to look any position of the array. 
+
+var str = "I live in a small city"
+
+console.log(
+    str.charAt(1)
+)    
+
+//# Slice () - retrun a postion of the Array 
+var str = "I live in a small city"
+
+console.log(
+    str.slice(6)
+)
+
+
+
+//# Substr() --- Retrun a part of the stirng as substring. 
+
+var str = "I lover to play cricket, football and cheese"
+
+var newStr = str.substr(0,23)
+
+console.log(newStr);
 */
