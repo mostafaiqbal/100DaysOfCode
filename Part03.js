@@ -181,5 +181,3 @@ var mutation = ["Hello", "hey"];
   var newArray = mutation.toString().toLowerCase();
      
 
-
-  console.log(newArray);
