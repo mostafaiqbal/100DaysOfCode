@@ -91,7 +91,7 @@ function largestOfFour(arr) {
 console.log(
   largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]])
 )
-*/
+
 //# Confirm the Ending
 
 function confirmEnding(str, target) {
@@ -105,3 +105,81 @@ function confirmEnding(str, target) {
   } 
 }
 console.log(confirmEnding("Bangladesh" , "n"))
+
+
+
+// # Repeat a string repeat a string 
+
+function repeatStringNumTimes(str, num) {
+  if (num < 1) {
+    return "";
+  } else {
+    return str.repeat(num)
+  }
+}
+console.log (
+  repeatStringNumTimes("abc", 3)
+)
+
+
+//# Truncate a string
+
+function truncateString(str, num) {
+  if(num<=3){
+    return str.slice(0,num) +"..." ;
+  } else if (num >3 && num < str.length) {
+    return str.slice(0,num-3) +"..." ;
+  } else if (num >= str.length) {
+    return str.slice(0,str.length)
+  }
+}
+console.log(
+truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length)
+);
+
+
+//# ****** Chunky Monkey  - make into two arrays 
+
+function chunkArrayInGroups(arr, size) {
+  var newArr = [];
+  var counter = 0;
+
+   while (counter < arr.length) {
+    newArr.push(arr.slice(counter, counter+size))
+    counter += size;
+   }
+   return newArr;
+}
+
+console.log(
+chunkArrayInGroups(["a", "b", "c", "d"], 2) );
+
+//# Slasher Flick 
+
+function slasher(arr, howMany) {
+
+  return arr.splice(howMany) ;
+}
+console.log(
+  slasher([1, 2, 3], 2)
+)
+
+
+//# Mutations
+
+function mutation(arr) {
+  
+  arr
+
+}
+
+mutation(["hello", "hey"]);
+*/
+
+var mutation = ["Hello", "hey"];
+
+  var newArray = mutation.toString().toLowerCase();
+     
+
+
+  console.log(newArray);

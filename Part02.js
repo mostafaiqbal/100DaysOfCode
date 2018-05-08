@@ -95,4 +95,4 @@ var str = "I lover to play cricket, football and cheese"
 var newStr = str.substr(0,23)
 
 console.log(newStr);
-*/
+*/      
