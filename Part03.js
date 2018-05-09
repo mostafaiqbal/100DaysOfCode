@@ -162,22 +162,32 @@ function slasher(arr, howMany) {
 }
 console.log(
   slasher([1, 2, 3], 2)
-)
+) 
 
-
-//# Mutations
+//# **** Mutations
 
 function mutation(arr) {
-  
-  arr
-
+  var target = arr[0].toLowerCase();
+  var word = arr[1].toLowerCase();
+  for (let i = 0; i < word.length; i++) {
+   if (target.indexOf(word[i]) < 0) {
+     return false;
+   }
+  }
+  return true ;
 }
-
-mutation(["hello", "hey"]);
+console.log(
+mutation(["Hello", "hey"])
+);
 */
 
-var mutation = ["Hello", "hey"];
-
-  var newArray = mutation.toString().toLowerCase();
-     
-
+function bouncer(arr) {
+  return arr.filter(function(value) {
+    if (value  !== Boolean)  {
+      return value;
+    }
+  })
+}
+console.log(
+bouncer([7, "ate", "", false, 9])
+);
