@@ -179,15 +179,15 @@ function mutation(arr) {
 console.log(
 mutation(["Hello", "hey"])
 );
-*/
 
+//# Bouncher 
 function bouncer(arr) {
-  return arr.filter(function(value) {
-    if (value  !== Boolean)  {
-      return value;
-    }
-  })
+ return arr.filter(function(val){
+   if (val !== Boolean) {
+     return val;
+   }
+ })
 }
 console.log(
-bouncer([7, "ate", "", false, 9])
-);
+bouncer([7, "ate", "", false, 9]));
+*/
