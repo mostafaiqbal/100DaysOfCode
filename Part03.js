@@ -191,3 +191,13 @@ function bouncer(arr) {
 console.log(
 bouncer([7, "ate", "", false, 9]));
 */
+
+
+var perosn = {
+  "name": "M Iqbal",
+  "age": 32,
+  "address" : {
+      "street" : " 13 Walpole Road",
+      "post code" : "SW19 2BZ",
+  }
+}

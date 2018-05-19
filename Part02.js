@@ -53,6 +53,15 @@ var concatMe = [4,5,6];
 newArray = oldArray.concat(concatMe);
 console.log(newArray);
 
+// # Slice
+var arr = [1,2,3,4,5]
+var newArray = arr.slice (0,1)
+console.log(newArray);
+
+//# Splice 
+
+
+
 // ****** STRING ******* 
 
 // # Split Strings with split 
