@@ -68,7 +68,7 @@ console.log(
 
    // #Use Multiple Conditional (Ternary) Operators
 
-   function checkSign(num) {
+function checkSign(num) {
     return num > 0 ? "positive" : (num < 0) ? "negative" : "Zero"; 
 
 }
