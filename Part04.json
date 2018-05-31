@@ -1,0 +1,12 @@
+
+{
+    "Name": "Name here",
+    "Age" : "Age here",
+    "address" : {
+                "Address Line One" : "Road Name Here",
+                "Address Line two" : " 2nd Address Line",
+                "Post Code" : "Post Code Here"
+    }, 
+    
+    "Car": ["ford", "BMW", "Mercedes"]
+}

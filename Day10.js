@@ -2,9 +2,6 @@
 // FreeCodeCamp Challenge: sObject Oriented and Functional Programming  (REVISE)
 //Return Largest Numbers in Arrays
 
-
-
-
 /**
     function largestOfFour(arr) {
         var longestArray = [0,0,0,0];
