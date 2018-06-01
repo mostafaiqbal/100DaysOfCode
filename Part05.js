@@ -64,7 +64,7 @@ console.log(
     checkEqual(1, 2)
     );
 
-    */
+ 
 
    // #Use Multiple Conditional (Ternary) Operators
 
@@ -75,3 +75,4 @@ function checkSign(num) {
 console.log(
 checkSign(12)
 );
+   */
