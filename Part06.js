@@ -90,4 +90,35 @@ const arr = removeFirstTwo(source);
 
 console.log(arr); // should be [3,4,5,6,7,8,9,10]
 //console.log(source); // should be [1,2,3,4,5,6,7,8,9,10];
- */
+
+//# Template Literals
+
+const person = {
+    name: "Zodiac Hasbro",
+    age: 56
+    };
+// old way to access to an object 
+console.log(
+    "myname is " + person.name
+)
+
+// old way to access to an object 
+console.log( 
+    `my age is ${person.age}`
+)
+
+
+
+    var personDetails =  (name, age, color) => {
+       return {
+        name : name,
+        age: age,
+        color: color,
+    } 
+    }
+
+
+    console.log (
+        personDetails ("shipon", 35 , "brown")
+    )
+        */
