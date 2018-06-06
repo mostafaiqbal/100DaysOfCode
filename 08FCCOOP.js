@@ -1,4 +1,6 @@
 // Object Oriented Programming - Create a Basic JavaScript Object
+
+/*
 // Use Dot Notation to Access the Properties of an Object
 //  Create a Method on an Object
 //Make Code More Reusable with the this Keyword
@@ -109,3 +111,20 @@ console.log("Prototyoe Proporties of Lalkutta " + prototypeProps);
         }
     }
 console.log(joinBDDOGgroup(lalkutta));
+*/
+function Dog(name) {
+    this.name = name;
+  }
+  
+  // Add your code below this line
+  let myDog = new Dog ("Jose")
+  function joinDogFraternity(candidate) {
+      if (candidate.constructor === Dog ) {
+          return true ;
+      } else {
+          return false;
+      }    
+  }
+
+  console.log (joinDogFraternity(myDog)); 
+  
