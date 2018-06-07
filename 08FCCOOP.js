@@ -112,19 +112,7 @@ console.log("Prototyoe Proporties of Lalkutta " + prototypeProps);
     }
 console.log(joinBDDOGgroup(lalkutta));
 */
-function Dog(name) {
-    this.name = name;
-  }
-  
-  // Add your code below this line
-  let myDog = new Dog ("Jose")
-  function joinDogFraternity(candidate) {
-      if (candidate.constructor === Dog ) {
-          return true ;
-      } else {
-          return false;
-      }    
-  }
+
 
   console.log (joinDogFraternity(myDog)); 
   
