@@ -204,7 +204,7 @@ let duck = new Bird("PIPI");
 console.log(duck);
 console.log(duck.eat());
 
-*/
+
 // #Use a Mixin to Add Common Behavior Between Unrelated Objects
 
 function flyMixin (obj) {
@@ -230,3 +230,22 @@ console.log(bird.fly());
 
 flyMixin(plane);
 console.log(plane.fly());
+
+// Protect Properties Within an Object from Being Modified Externally
+
+function Bird() {
+    let hatchEgg = 10;
+    this.eggCount = () => {
+        return hatchEgg;
+    }
+}
+
+let cukk = new Bird ();
+
+console.log(cukk.eggCount());
+
+// ## Immediately Invoked Function Expression (IIFE)
+(function (){
+    console.log("My name is IQBAL")
+})();
+*/  
