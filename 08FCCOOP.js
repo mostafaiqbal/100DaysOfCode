@@ -179,5 +179,54 @@ let cat = new Cat ("MIMI");
 console.log(cat.eat());
 console.log(cat.call());
 
-*/
 
+
+function Animal() { };
+
+Animal.prototype = {
+    eat: function() {
+    console.log("I eat chup choup")
+    },
+}
+
+function Bird (name) {
+    this.name = name;
+ };
+Bird.prototype = Object.create(Animal.prototype);
+Bird.prototype.constructor = Bird;
+Bird.prototype.eat = function () { 
+    console.log("I eat Tup Tup")
+}
+
+let duck = new Bird("PIPI");
+
+
+console.log(duck);
+console.log(duck.eat());
+
+*/
+// #Use a Mixin to Add Common Behavior Between Unrelated Objects
+
+function flyMixin (obj) {
+    obj.fly = function() {
+        console.log("Yes ! I can fly")
+    }
+};
+
+let bird = {
+    name: "PiPi",   
+    numLegs: 2,
+
+}
+
+let plane = {
+    name: "BA",
+    numWings : 2,
+
+}
+
+flyMixin(bird);
+console.log(bird.fly());
+
+flyMixin(plane);
+console.log(plane.fly());
