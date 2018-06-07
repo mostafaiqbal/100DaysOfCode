@@ -85,7 +85,7 @@ for (let property in lalkutta) {
 }
 console.log(lalKuttaPropertyArray);
 
-//Iterate Over All Properties
+//#Iterate Over All Properties
 
 let ownProps = [];
 let prototypeProps = [];
@@ -111,8 +111,73 @@ console.log("Prototyoe Proporties of Lalkutta " + prototypeProps);
         }
     }
 console.log(joinBDDOGgroup(lalkutta));
+
+
+//# Change the Prototype to a New Object
+
+function Dog (name) {
+    this.name = name;
+}
+
+Dog.prototype =  {
+    numLegs : 2,
+    eat     : function () {
+        console.log("when eat I do not make noice");
+    },
+    describe: function() {
+        console.log("my name is "+ this.name);
+    },
+}
+
+let tiss = new Dog ("Tiss");
+console.log(tiss);
+console.log(
+    tiss.hasOwnProperty ("name")
+);
+
+let ownProp = [];
+let protoProp = [];
+
+for (let property in tiss) {
+    if (tiss.hasOwnProperty(property)) {
+        ownProp.push(property);
+    } else {
+        protoProp.push(property);
+    }
+}
+
+console.log(ownProp);
+console.log(protoProp);
+
+// DO NOT REPEAT CODE (USING SUPER TYPE)
+
+//*** Super prototype 
+function Animal() {
+    
+}
+
+Animal.prototype = {
+    constructor: Animal,
+      eat: function() {
+      console.log("nom nom nom");
+    }
+  };
+
+function Cat(name) {
+    this.name = name; 
+  }
+
+  Cat.prototype = Object.create(Animal.prototype);
+  Cat.prototype.constructor = Cat;
+  Cat.prototype.call = function (){
+      console.log("I call mew mew")
+  }
+
+
+let cat = new Cat ("MIMI");
+
+console.log(cat.eat());
+console.log(cat.call());
+
 */
 
-
-  console.log (joinDogFraternity(myDog)); 
-  
