@@ -1,5 +1,5 @@
 // FCC Funcational Programming
-
+/** 
 let greenTea = "greenTea";
 let blackTea = "blackTea";
 
@@ -24,3 +24,4 @@ const tea4GreenTeamFCC = getTea(greenTea, 40);
 
 console.log(tea4GreenTeamFCC); 
 
+*/
