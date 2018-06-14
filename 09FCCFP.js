@@ -1,37 +1,37 @@
 // FCC Funcational Programming
-/** 
-let greenTea = "greenTea";
-let blackTea = "blackTea";
 
-const getTea = (typeOfTea, numberOfTeas) => {  
-    const teaCups = []; 
-    for (let blackTeaCup = 1; blackTeaCup <= numberOfTeas; blackTeaCup++) {
+let prepareGreenTea = () => "GreenTea";
+let prepareBlackTea = () => "BlackTea";
+
+let getTea = function (prepareTea, numberOfCups) {
+    let cups = [];
+    for (let i = 1; i <=numberOfCups; i++) {
+        cups.push(prepareTea);
         
-        teaCups.push(blackTea);
     }
-
-    for (let greenTeaCup = 1; greenTeaCup <= numberOfTeas; greenTeaCup++) {
-        
-        teaCups.push(greenTea);
-    }
-
-
-
-    return teaCups;
+    return cups;
 }
+        const tea4GreenTeamFCC = getTea(prepareGreenTea(), 27)
+        const teaBlackTeamFCC = getTea(prepareBlackTea(), 13)
+//console.log(teaBlackTeamFCC)
 
-const tea4GreenTeamFCC = getTea(greenTea, 40);
 
-console.log(tea4GreenTeamFCC); 
 
-*/
 
-/**
- * YOUTUBE TUTORIAL ON FUNCTIONAL PROGRAMMING
- * 
+
+
+
+
+
+
+
+
+
+/*******************************************
+ * YOUTUBE TUTORIAL ON FUNCTIONAL PROGRAMMING 
  */
 
-
+/*
 let animals = [
     { name: "jack",     species: "rabit"},
     { name: "russel",   species: "dog"},
@@ -45,7 +45,7 @@ var names = animals.map(function(animals){
     return animals.name + " is a " + animals.species;
 })
    console.log(names);
-/*
+
  let name = [];
 for (let i = 0; i < animals.length; i++) {
         name.push(animals[i].name);
@@ -72,5 +72,26 @@ for (let i = 0; i < animals.length; i++) {
 console.log(dog);
 console.log(rest);
 
-*/
 
+
+// Reduce
+
+let order = [
+    {amount: 250},
+    {amount: 400},
+    {amount: 100},
+    {amount: 325},
+]
+ 
+let totoalAmount = order.reduce((sum, order) => sum + order.amount,0)
+
+console.log (totoalAmount);
+
+ let totoalAmount = 0;
+
+for (let i = 0; i < order.length; i++) {
+    totoalAmount += order[i].amount;
+    
+}
+
+ */
