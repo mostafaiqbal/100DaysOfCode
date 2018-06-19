@@ -42,3 +42,26 @@ let myRegex = /Hello/;
 console.log(
  myRegex.test(myString)
 )
+
+
+/*******************
+ YouTube Tutorial 
+ ******************* */
+// let & const 
+//Hoisting
+// Object Literal Extension 
+
+let name = "max";
+let age = 29
+
+let obj  = {
+    name, 
+    age,
+    greet() {
+        console.log ("Hi my name is " + this.name + " I am " + this.age +
+    " years old.")
+    }
+}
+obj.greet();
+
+// Rest Operators 
