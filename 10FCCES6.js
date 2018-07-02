@@ -101,6 +101,7 @@ const mars = new spaceShuttle ("spaceX");
 console.log(mars);
  */
 
+<<<<<<< HEAD
 function makeClass() {
   
     /* Alter code below this line */
@@ -115,3 +116,33 @@ function makeClass() {
   const Vegetable = makeClass();
   const carrot = new Vegetable('carrot');
   console.log(carrot.name); // => should be 'carrot'
+=======
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+console.log(
+ myRegex.test(myString)
+)
+
+
+/*******************
+ YouTube Tutorial 
+ ******************* */
+// let & const 
+//Hoisting
+// Object Literal Extension 
+
+let name = "max";
+let age = 29
+
+let obj  = {
+    name, 
+    age,
+    greet() {
+        console.log ("Hi my name is " + this.name + " I am " + this.age +
+    " years old.")
+    }
+}
+obj.greet();
+
+// Rest Operators 
+>>>>>>> c74de70460fe1b3ac4cdfde7033590adf4013696
