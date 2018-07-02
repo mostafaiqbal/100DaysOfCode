@@ -35,7 +35,7 @@ const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34];
 const squaredIntegers = realNumberArray.filter((val) => Number.isInteger(val)).map((val) => val*= val);
 
 console.log(squaredIntegers);
- */
+
 
 let myString = "Hello, World!";
 let myRegex = /Hello/;
@@ -43,15 +43,15 @@ console.log(
  myRegex.test(myString)
 )
 
-
+ */
 /*******************
  YouTube Tutorial 
  ******************* */
 // let & const 
 //Hoisting
 // Object Literal Extension 
-
-let name = "max";
+/**
+ * let name = "max";
 let age = 29
 
 let obj  = {
@@ -63,5 +63,9 @@ let obj  = {
     }
 }
 obj.greet();
+ */
+
+
 
 // Rest Operators 
+alert("AI is coming")
