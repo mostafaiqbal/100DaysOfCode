@@ -105,7 +105,7 @@ function makeClass() {
   
     /* Alter code below this line */
   class Vegetable {
-    constructor () {
+    constructor (git) {
       this.name = name;
     }
   }
