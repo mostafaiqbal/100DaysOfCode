@@ -35,42 +35,6 @@ const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34];
 const squaredIntegers = realNumberArray.filter((val) => Number.isInteger(val)).map((val) => val*= val);
 
 console.log(squaredIntegers);
-<<<<<<< HEAD
-
-
-let myString = "Hello, World!";
-let myRegex = /Hello/;
-console.log(
- myRegex.test(myString)
-)
-
- */
-/*******************
- YouTube Tutorial 
- ******************* */
-// let & const 
-//Hoisting
-// Object Literal Extension 
-/**
- * let name = "max";
-let age = 29
-
-let obj  = {
-    name, 
-    age,
-    greet() {
-        console.log ("Hi my name is " + this.name + " I am " + this.age +
-    " years old.")
-    }
-}
-obj.greet();
- */
-
-
-
-// Rest Operators 
-alert("AI is coming")
-=======
  
    // Rest Parameter
 
@@ -136,4 +100,26 @@ const mars = new spaceShuttle ("spaceX");
 
 console.log(mars);
 */
->>>>>>> 7d55873d21f32843479a4ed77e6ec1e415abfe12
+
+// Getter and Setter 
+"use strict";
+
+class Book {
+    constructor (author) {
+
+        this._author = author;
+    }
+
+    get writer() {
+        return this._author;
+    }
+
+    set writer (updatedAuthor) {
+        this._author = updatedAuthor;
+    }
+}
+
+const lol = new Book('anonymous');
+console.log(lol.writer);
+lol.writer = 'wut';
+console.log(lol.writer);
