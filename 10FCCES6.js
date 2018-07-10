@@ -99,7 +99,7 @@ class spaceShuttle {
 const mars = new spaceShuttle ("spaceX");
 
 console.log(mars);
-*/
+
 
 // Getter and Setter 
 "use strict";
@@ -123,3 +123,5 @@ const lol = new Book('anonymous');
 console.log(lol.writer);
 lol.writer = 'wut';
 console.log(lol.writer);
+
+*/
