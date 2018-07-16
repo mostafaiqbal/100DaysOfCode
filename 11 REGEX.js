@@ -1,6 +1,6 @@
 //Regular Expression. 
 
-let testStr = "freeCodeCamp";
-let testRegex = /Code/;
-testRegex.test(testStr);
-// Returns true
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+ console.log(myRegex.test(myString)); // Change this line
+
