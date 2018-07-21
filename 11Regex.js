@@ -44,16 +44,28 @@ let difficultSpelling = "Mississippi";
 let myRegex = /s+/g; // Change this line
 let result = difficultSpelling.match(myRegex);
 
-
-*/
-
 //Regular Expressions: Find Characters with Lazy Matching
 let text = "titanic";
 let myRegex = /t[a-z]?i/; // Change this line
 let result = text.match(myRegex);
 
 
-console.log(result);
+//Regular Expressions: Find One or More Criminals in a Hunt
+let crowd = 'P1P2P3P4P5P6CCCP7P8P9';
 
-document.getElementById("demo").innerHTML = result;
+let reCriminals = /C+/ig; // Change this line
 
+let matchedCriminals = crowd.match(reCriminals);
+console.log(matchedCriminals);
+
+*/
+
+//Regular Expressions: Match Beginning String Patterns
+
+let firstString = "Ricky is first and can be found.";
+let firstRegex = /^Ricky/;
+let result1 = firstRegex.test(firstString);
+console.log(result1)// Returns true
+let notFirst = "You can't find Ricky now.";
+let result2 = firstRegex.test(notFirst);
+console.log(result2)// Returns false
