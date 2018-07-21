@@ -39,9 +39,21 @@ let exampleSt = "let's have run with regular expression";
 let unRegex = /un./;
 let result = exampleSt.match(unRegex);
 
+//Regular Expressions: Match Characters that Occur One or More Times
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/g; // Change this line
+let result = difficultSpelling.match(myRegex);
+
+
 */
 
-//Regular Expressions: Match Single Character with Multiple Possibilities
+//Regular Expressions: Find Characters with Lazy Matching
+let text = "titanic";
+let myRegex = /t[a-z]?i/; // Change this line
+let result = text.match(myRegex);
 
 
 console.log(result);
+
+document.getElementById("demo").innerHTML = result;
+
