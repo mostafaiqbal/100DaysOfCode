@@ -60,16 +60,11 @@ console.log(matchedCriminals);
 
 */
 
-//Regular Expressions: Match Beginning String Patterns
+//Regular Expressions: Restrict Possible Usernames
+let username = "JackOfAllTrades";
+//let userCheck = /^[\w]|[d]$/ig; // Change this line
+let result = userCheck.test(username);
 
-<<<<<<< HEAD
-//console.log(result);
-=======
-let firstString = "Ricky is first and can be found.";
-let firstRegex = /^Ricky/;
-let result1 = firstRegex.test(firstString);
-console.log(result1)// Returns true
-let notFirst = "You can't find Ricky now.";
-let result2 = firstRegex.test(notFirst);
-console.log(result2)// Returns false
->>>>>>> 7ff62b4e89e32cca425e4496eb5e2ea9a7d49826
+console.log(result);
+Usernames have to be at least two characters long.
+ A two-letter username can only use alphabet letter characters.
