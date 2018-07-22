@@ -61,10 +61,10 @@ console.log(matchedCriminals);
 */
 
 //Regular Expressions: Restrict Possible Usernames
-let username = "JackOfAllTrades";
-//let userCheck = /^[\w]|[d]$/ig; // Change this line
+let username = "JACK";
+let userCheck = /^[A-Za-z]{2}|[d]$/g; // Change this line
 let result = userCheck.test(username);
 
 console.log(result);
-Usernames have to be at least two characters long.
- A two-letter username can only use alphabet letter characters.
+//Usernames have to be at least two characters long.
+ //A two-letter username can only use alphabet letter characters.
