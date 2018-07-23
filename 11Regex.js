@@ -58,13 +58,29 @@ let reCriminals = /C+/ig; // Change this line
 let matchedCriminals = crowd.match(reCriminals);
 console.log(matchedCriminals);
 
-*/
-
 //Regular Expressions: Restrict Possible Usernames
 let username = "JACK";
 let userCheck = /^[A-Za-z]{2}|[d]$/g; // Change this line
 let result = userCheck.test(username);
 
+//Simple Password Checker
+let sampleWord = "bana12";
+let pwRegex = /(?=\w{3,})(?=\D*\d)/; // Change this line
+let result = pwRegex.test(sampleWord);
+
+//Capture Group
+let sampleWord = "42 42 42 42";
+let pwRegex = /^(\d+)\s\1\s\1$/; // Change this line
+let result = pwRegex.test(sampleWord);
+
+//Replace 
+let huhText = "This sandwich is good.";
+let fixRegex = /good/; // Change this line
+let replaceText = "okey-dokey"; // Change this line
+let result = huhText.replace(fixRegex, replaceText);
+
+let hello = "   Hello, World!  ";
+let wsRegex = /\S.*\S/\;
+let result = hello.match(wsRegex);
 console.log(result);
-//Usernames have to be at least two characters long.
- //A two-letter username can only use alphabet letter characters.
+*
