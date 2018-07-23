@@ -83,4 +83,4 @@ let hello = "   Hello, World!  ";
 let wsRegex = /\S.*\S/\;
 let result = hello.match(wsRegex);
 console.log(result);
-*
+*/
