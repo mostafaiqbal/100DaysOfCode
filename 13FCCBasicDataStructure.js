@@ -63,11 +63,7 @@ function quickCheck(arr, elem) {
 console.log(
   quickCheck([3, 5, 9, 125, 45, 2], 125)
 );  
-
-*/
-
-
- 
+// Unsolved  
 function filteredArray(arr, elem) {
     let newArr = [];
     for (let i = 0; i < arr.length; i++) {
@@ -89,4 +85,38 @@ function filteredArray(arr, elem) {
     filteredArray ([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3)
   );
 
-  
+*/
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28,
+  bananas: 13,
+  grapes: 35,
+  strawberries: 27
+};
+
+// change code below this line
+delete foods.apples;
+delete foods.plums;
+delete foods.strawberries;
+// change code above this line
+
+//console.log(foods);
+let users = {
+  Alan: {
+    age: 27,
+    online: true
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: true
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
