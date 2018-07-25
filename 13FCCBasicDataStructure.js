@@ -102,6 +102,7 @@ delete foods.strawberries;
 // change code above this line
 
 //console.log(foods);
+
 let users = {
   Alan: {
     age: 27,
