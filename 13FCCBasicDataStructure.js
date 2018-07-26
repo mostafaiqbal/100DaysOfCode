@@ -10,7 +10,7 @@ let array = ['a', 'b', 'c']
   //console.log(array);
 
 
-    function mixedNumbers(arr) {
+    function mixedNumbers (arr) {
       arr.unshift('I', 2, 'Three');
       arr.push(7, 'VIII', 9)
       return arr;
@@ -85,24 +85,8 @@ function filteredArray(arr, elem) {
     filteredArray ([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3)
   );
 
-*/
-let foods = {
-  apples: 25,
-  oranges: 32,
-  plums: 28,
-  bananas: 13,
-  grapes: 35,
-  strawberries: 27
-};
-
-// change code below this line
-delete foods.apples;
-delete foods.plums;
-delete foods.strawberries;
-// change code above this line
-
-//console.log(foods);
-
+  
+// ***check if an object is property 
 let users = {
   Alan: {
     age: 27,
@@ -121,3 +105,44 @@ let users = {
     online: true
   }
 };
+
+function isEveryoneHere(obj) {
+  let members = [ 'Alan', 'Jeff', 'Sarah',  'Ryan'];
+  for (let i = 0; i < members.length; i++) {
+   return obj.hasOwnProperty(members[i])
+  }
+}
+console.log(isEveryoneHere(users));
+
+
+*/
+
+
+let users = {
+  Alan: {
+    age: 27,
+    online: false
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: false
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+function countOnline(obj) {
+   let onlineUsers = 0;
+  for(let user in obj){
+    if(obj[user].online === true){
+      onlineUsers++;
+    }
+  }
+  return onlineUsers;
+}
+console.log(countOnline(users));
