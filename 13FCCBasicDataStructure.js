@@ -114,10 +114,7 @@ function isEveryoneHere(obj) {
 }
 console.log(isEveryoneHere(users));
 
-
 */
-
-
 let users = {
   Alan: {
     age: 27,
@@ -136,13 +133,59 @@ let users = {
     online: true
   }
 };
-function countOnline(obj) {
-   let onlineUsers = 0;
-  for(let user in obj){
-    if(obj[user].online === true){
-      onlineUsers++;
+
+// find the online users 
+/**
+function countOnline (obj) {
+  let usersOnline = 0;
+   for (let users in obj) {
+
+    if (obj[users].online == true) {
+
+      usersOnline++;
+      
+    }
+
+ }
+  return usersOnline;
+}
+
+console.log(countOnline(users));
+
+
+function getArrayOfUsers(obj) {
+ 
+return Object.keys(obj);
+
+}
+
+console.log(getArrayOfUsers(users));
+
+*/
+
+let user = {
+  name: 'Kenneth',
+  age: 28,
+  data: {
+    username: 'kennethCodesAllDay',
+    joinDate: 'March 26, 2016',
+    organization: 'freeCodeCamp',
+    friends: [
+      'Sam',
+      'Kira',
+      'Tomo'
+    ],
+    location: {
+      city: 'San Francisco',
+      state: 'CA',
+      country: 'USA'
     }
   }
-  return onlineUsers;
+};
+
+function addFriend(userObj, friend) {
+  
+
 }
-console.log(countOnline(users));
+
+console.log(addFriend(user, 'Pete'));
