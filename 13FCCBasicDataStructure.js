@@ -161,31 +161,64 @@ return Object.keys(obj);
 
 console.log(getArrayOfUsers(users));
 
-*/
 
-let user = {
-  name: 'Kenneth',
-  age: 28,
-  data: {
-    username: 'kennethCodesAllDay',
-    joinDate: 'March 26, 2016',
-    organization: 'freeCodeCamp',
-    friends: [
-      'Sam',
-      'Kira',
-      'Tomo'
-    ],
-    location: {
-      city: 'San Francisco',
-      state: 'CA',
-      country: 'USA'
-    }
-  }
-};
+// GreaterthanTen
 
-function addFriend(userObj, friend) {
+function GreaterthanTen (arr) {
+let newArr = [];
+for (let i = 0; i < arr.length; i++) {
   
-
+  if (arr[i] > 10) {
+    newArr.push(arr[i]);
+  }
+  
+}
+  return newArr;
 }
 
-console.log(addFriend(user, 'Pete'));
+let ar1 = [
+[4,5,20],
+[6,7,11],
+[2,5,9]
+
+]
+
+let oneArr = [];
+
+for (let i = 0; i < ar1.length; i++) {
+ 
+  for (let y = 0; y < ar1[i].length; y++) {
+   
+    if(ar1[i][y] > 10) {
+      oneArr.push(ar1[i]);
+    }
+    
+  }
+  
+}
+
+console.log(oneArr);
+*/
+
+
+function filteredArray(arr, elem) {
+  
+  let newArr = [...arr];
+  
+  for (let i = 0; i < newArr.length; i++) { 
+    
+    for (let y = 0; y < newArr[i].length; y++) {
+      
+      if (newArr[i][y] == elem) {
+
+        newArr.splice(i, 1);
+        i--;
+        break;
+      }      
+    }    
+  }
+  return newArr;
+}
+
+// change code here to test different cases:
+console.log(filteredArray([[10, 8, 3], [14, 6, 23], [3, 18, 6]], 18));
