@@ -198,7 +198,7 @@ for (let i = 0; i < ar1.length; i++) {
 }
 
 console.log(oneArr);
-*/
+
 
 
 function filteredArray(arr, elem) {
@@ -222,3 +222,5 @@ function filteredArray(arr, elem) {
 
 // change code here to test different cases:
 console.log(filteredArray([[10, 8, 3], [14, 6, 23], [3, 18, 6]], 18));
+
+*/
