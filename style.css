@@ -1,0 +1,27 @@
+#red {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 75px;
+    display: inline-block;
+    margin:5px;
+}
+#blue {
+    width: 100px;
+    height: 100px;
+    border: 1px solid:blue;
+    background-color:blue;
+    border-radius: 75px;
+    display: inline-block;
+   margin: 5px;
+}
+#yellow {
+    width: 100px;
+    height: 100px;
+    border: 1px solid: yellow;
+    background-color:yellow;
+    border-radius: 75px;
+    display: inline-block;
+ 
+}
