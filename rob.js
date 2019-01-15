@@ -100,7 +100,7 @@ document.getElementById("btn").ondblclick = function() {
         }
 
         */
-       let tweet = ["Donuld Trum ", "Financial Time", "US-China Deal", "Brexit", "No Deal"];
+       let tweet = ["nodejs ", "vuejs", "joomlaPhp", "react", "Angular"];
         
        for (let i = 0; i < tweet.length; i++) {
            
