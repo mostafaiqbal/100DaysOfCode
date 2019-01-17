@@ -81,7 +81,9 @@ document.getElementById("btn").ondblclick = function() {
 
      }
           */
-/*
+    /*     
+        // Guess the Number Game
+        // ************ This section need to be improved. need to add counter of the game using Loop. Betweet to add game in differnet file. ************
          document.getElementById("btn").onclick = function () {
              let rightNumber = Math.floor(Math.random() * 10) + 1;
              let numberEntered = document.getElementById("inputText").value;
@@ -99,10 +101,29 @@ document.getElementById("btn").ondblclick = function() {
 
         }
 
-        */
+    */
+       /*
        let tweet = [" nodejs ", " vuejs ", " joomlaPhp ", " react ", " Angular "];
-        
-       for (let i = 0; i < tweet.length; i++) {
-        document.getElementById("tweetRow").innerHTML = tweet;   
-        }
+       
+       let tweetrow = "";
 
+       for (let i = 0; i < tweet.length; i++) {
+           
+        tweetrow = tweetrow + tweet[i] + "<br/>";
+           
+       }
+
+       document.getElementById("tweetRow").innerHTML = tweetrow;
+
+   
+
+   let tweet = [" nodejs ", " vuejs ", " joomlaPhp ", " react ", " Angular "];
+   let i = 0; 
+   let tweetrow = " ";
+   while (i < tweet.length) {
+    tweetrow = tweetrow + tweet[i] + "<br/>";
+    i++
+   }
+    document.getElementById("tweetRow").innerHTML = tweetrow;
+
+     */
