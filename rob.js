@@ -100,11 +100,9 @@ document.getElementById("btn").ondblclick = function() {
         }
 
         */
-       let tweet = ["nodejs ", "vuejs", "joomlaPhp", "react", "Angular"];
+       let tweet = [" nodejs ", " vuejs ", " joomlaPhp ", " react ", " Angular "];
         
        for (let i = 0; i < tweet.length; i++) {
-           
-            document.getElementById("tweetRow").innerHTML = tweet;
-
-            
+        document.getElementById("tweetRow").innerHTML = tweet;   
         }
+
