@@ -126,4 +126,32 @@ document.getElementById("btn").ondblclick = function() {
    }
     document.getElementById("tweetRow").innerHTML = tweetrow;
 
-     */
+ 
+
+     // Howmany fingure are we Holding 
+
+     document.getElementById("btn").onclick = function () {
+         let myNumber = document.getElementById("numberInput").value;
+              
+         let gotIt = false;
+         let counting = 1;
+
+        while (gotIt == false) {
+            let guessNumber = Math.floor(Math.random() * 11);
+
+             if (myNumber <= 10 ) {      
+
+                if(myNumber == guessNumber) {
+                        gotIt = true;
+                   document.getElementById("resultDiv").innerHTML = "Got It !!! It took me " + counting + " Gusses ." ;
+                } else {
+                    counting++;
+                }
+            } else {
+                document.getElementById("resultDiv").innerHTML = "Sorry!! Your are out of range. Number Must be between 1 to 10";
+                break;
+            }        
+        } 
+     }
+
+         */ 
