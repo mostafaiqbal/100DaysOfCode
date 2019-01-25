@@ -1,12 +1,16 @@
-body{
-  
-    margin: 150px;
-}
-
-#shape {
-    width: 100px;
+.circle {
     height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+#green {
+    background-color: green;
+}
+#red {
     background-color: red;
-    display: none;
-    position: relative;
+}
+#blue {
+    background-color: blue;
 }
