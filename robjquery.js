@@ -1,17 +1,16 @@
 
  let textDisplay = true;
  
-$("#toggle").click(function() {
+document.getElementById("toggle").onclick = function() {
 
+    if(textDisplay) {
+        document.getElementById("sent").style.display = "none";
+        textDisplay = false;
 
-       if(textDisplay) {
-        $("#sent").fadeOut(function(){
-            textDisplay = false;
-        });
     } else {
-        $("#sent").fadeIn(function(){
-            textDisplay = true;
-        })
+        document.getElementById("sent").style.display = "block";
+        textDisplay = true;
     }
 
-})
+
+}
