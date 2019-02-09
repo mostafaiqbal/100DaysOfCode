@@ -1,0 +1,1 @@
+If you can see this message, you have successfully connected with me via AJEX.

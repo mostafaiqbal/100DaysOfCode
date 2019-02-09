@@ -1,0 +1,38 @@
+{
+  "ftp://160.153.16.39@iqbalmiq@indigoqbal.co.uk": {
+    ".DS_Store": {
+      "type": "-",
+      "size": 6148,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".ftpquota": {
+      "type": "-",
+      "size": 4,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".htaccess": {
+      "type": "-",
+      "size": 4950,
+      "lmtime": 0,
+      "modified": false
+    },
+    "assets": {},
+    "cgi-bin": {},
+    "code": {},
+    "img01.jpg": {
+      "type": "-",
+      "size": 118815,
+      "lmtime": 0,
+      "modified": false
+    },
+    "index.html": {
+      "type": "-",
+      "size": 2061,
+      "lmtime": 0,
+      "modified": false
+    }
+  },
+  "$version": 1
+}

@@ -1,16 +1,5 @@
-
- let textDisplay = true;
- 
-document.getElementById("toggle").onclick = function() {
-
-    if(textDisplay) {
-        document.getElementById("sent").style.display = "none";
-        textDisplay = false;
-
-    } else {
-        document.getElementById("sent").style.display = "block";
-        textDisplay = true;
-    }
-
-
-}
+$.ajax("readme.txt").done(function(data) {
+    $("#sent").html(data)
+}).fail(function(){
+    $("#sent").html("Sorry We can not connect ")
+});
